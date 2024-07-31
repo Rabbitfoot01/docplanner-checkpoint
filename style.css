@@ -1,0 +1,241 @@
+body {
+    font-family: sans-serif;
+    color: #252525;
+}
+a{
+    color: grey ;
+    text-decoration: none;
+}
+
+.active{
+    color: #5dc6b0;
+}
+
+.docplanner-header{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   font-size: 15px;
+   position: sticky;
+   
+}
+.docplanner-image img{
+width: 35px;
+height: 35px;
+}
+.docplanner-entete{
+    display: flex;
+    position: sticky;
+}
+.spanned-docplanner{
+    color: #5dc6b0;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spanned-Group{
+    color: grey;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+}
+.introduction-title{
+    color: #5dc6b0;
+}
+.introduction-text{
+    display: flex;
+    align-items: center;
+}
+.introduction-paragraph{
+    margin: 10px;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.service-card{
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+}
+.service-card-patient{
+    background-color: #5dc6b0;
+
+}
+.service-card-doctors{
+    background-color: #4293db;
+
+}
+.service-card-image {
+    width: 24px;
+    height: 24px;
+}
+.service-card-select{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.service-card-clinics{
+    background-color: rgb(6, 6, 48);
+}
+.credo{
+    color: #5dc6b0;
+    font-size: 20px;
+
+}
+.second-part{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.third-part{
+    background-color: #a5f1e1;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.qualities{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+
+}
+
+.crédo-2 p{
+    font-size: 14px;
+    color: rgb(90, 86, 86);
+}
+.crédo-title{
+    color: #5dc6b0;
+    font-weight: lighter;
+    font-size: 70;
+}
+
+
+.quality{
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    color:  rgb(90, 86, 86);
+    
+
+}
+.leadership-title{
+    color: #5dc6b0;
+}
+
+.fourth-part-title{
+    text-align: center;
+    background-color: white;
+    color: #5dc6b0;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.fourth-part-paragraph{
+    text-align: center;
+}
+.text-images{
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    border: 1px;
+    margin: 20px;
+}
+.city-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.hero-btn{
+    background-color: rgb(22, 41, 151);
+    border: 3px solid rgb(22, 41, 151);
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.text-images
+.image{
+    width: 285px;
+    border-radius: 5px;
+    height: 300px;
+}
+.city{
+    color: grey;
+}
+.partner-countries{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    justify-content: center;
+}
+.footer{
+    align-items: center;
+    text-align: center;
+    color: grey;
+}
+.footer a{
+    color: #4293db;
+    text-decoration: none;
+}
+.footer-title-section div h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
